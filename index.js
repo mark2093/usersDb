@@ -29,7 +29,7 @@ mongoose.connect(config.DB_URI, {
   app.use(provideErrorHandler);
 
 //Api Routes
-app.use('/api/v1/users', usersRoutes);
+app.use('/', usersRoutes);
 
   //Listening Port
 app.listen(PORT, () => {
