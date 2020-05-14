@@ -12,4 +12,4 @@ mongoose.connect(config.DB_URI, {
   await fakeDB.populate();
   await mongoose.connection.close();
   console.log('DB has been populated!');
-});3
+});
