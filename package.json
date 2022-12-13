@@ -7,7 +7,7 @@
     "datauri": "^2.0.0",
     "express": "^4.17.3",
     "mongoose": "^5.9.11",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.20"
   },
   "scripts": {
     "start": "node index.js"
